@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .form-box {
+            background-color: white;
+            padding: 30px;
+            margin: auto;
+            width: 400px;
+            box-shadow: 0 0 10px #ccc;
+            border-radius: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h1>Welcome to Hotel Booking</h1>
+        <a href="/booking"><button>Book a Room</button></a>
+        <a href="/bookings"><button>View Bookings</button></a>
+    </div>
+</body>
+</html> 
+ -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Home</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: url("{{ url_for('static', filename='gk.jpg') }}") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .form-box {
+            position: relative;
+            top: 100px;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            margin: auto;
+            width: 400px;
+            box-shadow: 0 0 10px #ccc;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-box">
+        <h1>Welcome to Hotel Booking</h1>
+        <a href="/booking"><button>Book a Room</button></a>
+        <a href="/bookings"><button>View Bookings</button></a>
+    </div>
+
+</body>
+</html>
